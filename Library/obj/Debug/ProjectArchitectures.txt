@@ -1,0 +1,2 @@
+C:\Users\olgasi\OneDrive\GitProjects\Library\1\Library\ClassLibrary1\ClassLibrary.csproj;neutral
+C:\Users\olgasi\OneDrive\GitProjects\Library\1\Library\Library\Library.csproj;neutral

@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>OLGASI-LAP</Machine>
+    <WindowsUser>olgasi</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>273b19dd-1e22-4758-a4e8-91df17d5e192</PackageIdentityName>
+    <PackageIdentityPublisher>CN=olgasi</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\olgasi\OneDrive\GitProjects\Library\1\Library\Library\obj\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <RegisteredManifestChecksum>BC25BF72E8C5A948F4D0FCF75E950A9D7947E17509F1E264BD0309E10A8F139C</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>273b19dd-1e22-4758-a4e8-91df17d5e192_1.0.0.0_neutral__w396qqq1zppde</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>273b19dd-1e22-4758-a4e8-91df17d5e192_w396qqq1zppde!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>273b19dd-1e22-4758-a4e8-91df17d5e192</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=olgasi</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\olgasi\OneDrive\GitProjects\Library\1\Library\Library\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-04-06T19:59:54.509</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\olgasi\OneDrive\GitProjects\Library\1\Library\Library\bin\Debug\Library.exe">
+      <PackagePath>Library.exe</PackagePath>
+      <Modified>2018-04-06T20:11:39.682</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\olgasi\OneDrive\GitProjects\Library\1\Library\ClassLibrary1\bin\Debug\ClassLibrary1.dll">
+      <PackagePath>ClassLibrary1.dll</PackagePath>
+      <Modified>2017-05-21T06:46:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\olgasi\OneDrive\GitProjects\Library\1\Library\Library\Assets\halifax1.jpg">
+      <PackagePath>Assets\halifax1.jpg</PackagePath>
+      <Modified>2017-05-21T06:45:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\olgasi\OneDrive\GitProjects\Library\1\Library\Library\Assets\halifax2.jpg">
+      <PackagePath>Assets\halifax2.jpg</PackagePath>
+      <Modified>2017-05-21T06:45:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\olgasi\OneDrive\GitProjects\Library\1\Library\Library\Assets\halifax3.jpg">
+      <PackagePath>Assets\halifax3.jpg</PackagePath>
+      <Modified>2017-05-21T06:45:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\olgasi\OneDrive\GitProjects\Library\1\Library\Library\Assets\halifax4.jpg">
+      <PackagePath>Assets\halifax4.jpg</PackagePath>
+      <Modified>2017-05-21T06:45:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\olgasi\OneDrive\GitProjects\Library\1\Library\Library\Assets\halifax5.jpg">
+      <PackagePath>Assets\halifax5.jpg</PackagePath>
+      <Modified>2017-05-21T06:45:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\olgasi\OneDrive\GitProjects\Library\1\Library\Library\Assets\halifax6.jpg">
+      <PackagePath>Assets\halifax6.jpg</PackagePath>
+      <Modified>2017-05-21T06:46:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\olgasi\OneDrive\GitProjects\Library\1\Library\Library\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-05-21T06:45:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\olgasi\OneDrive\GitProjects\Library\1\Library\Library\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-05-21T06:45:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\olgasi\OneDrive\GitProjects\Library\1\Library\Library\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-05-21T06:45:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\olgasi\OneDrive\GitProjects\Library\1\Library\Library\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-05-21T06:45:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\olgasi\OneDrive\GitProjects\Library\1\Library\Library\bin\Debug\Library.xr.xml">
+      <PackagePath>Library.xr.xml</PackagePath>
+      <Modified>2018-04-06T19:38:57.377</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\olgasi\OneDrive\GitProjects\Library\1\Library\Library\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2018-04-06T19:59:47.500</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\olgasi\OneDrive\GitProjects\Library\1\Library\Library\bin\Debug\AdminPage1.xbf">
+      <PackagePath>AdminPage1.xbf</PackagePath>
+      <Modified>2018-04-06T19:59:47.500</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\olgasi\OneDrive\GitProjects\Library\1\Library\Library\bin\Debug\UserPage1.xbf">
+      <PackagePath>UserPage1.xbf</PackagePath>
+      <Modified>2018-04-06T19:59:47.501</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\olgasi\OneDrive\GitProjects\Library\1\Library\Library\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2018-04-06T19:59:47.501</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\olgasi\OneDrive\GitProjects\Library\1\Library\Library\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-04-06T19:59:48.166</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
