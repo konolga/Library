@@ -4,11 +4,7 @@ C# and xaml application for Windows 8.
 In Library there are 2 categories: books and journals. Each category has 3 defferent genres. User can take item from library and return it. 
 
 
-UI explanation:
-
-![Alt text](relative/path/to/img.jpg?raw=true "Title")
-
-Solution contains 2 files:
+# UI explanation
 
 ## Main page contains two parts. 
 
@@ -18,33 +14,37 @@ Username: user
 
 Password: user
 
-![Alt text](relative/path/to/img.jpg?raw=true "Login")
+![Alt text](https://github.com/olgush/Library/blob/master/Library/Assets/screenshot1.JPG "Login")
 
 ### 2. "Sing up" for new users.
 
-![Alt text](relative/path/to/img.jpg?raw=true "SingUp")
+![Alt text](https://github.com/olgush/Library/blob/master/Library/Assets/screenshot2.JPG "SingUp")
+
+
 
 ## Internal Library page contains 4 parts. 
 
 ### 1. Search
 
-![Alt text](relative/path/to/img.jpg?raw=true "Search")
+![Alt text](https://github.com/olgush/Library/blob/master/Library/Assets/screenshot3.JPG "Search")
 
 ### 2. Items found in Library
 
-![Alt text](relative/path/to/img.jpg?raw=true "Library")
+![Alt text](https://github.com/olgush/Library/blob/master/Library/Assets/screenshot4.JPG "Library")
 
 ### 3. Items taken to read
 
-![Alt text](relative/path/to/img.jpg?raw=true "TakenItems")
+![Alt text](https://github.com/olgush/Library/blob/master/Library/Assets/screenshot5.JPG "TakenItems")
 
 ### 4. Control panel
 
-![Alt text](relative/path/to/img.jpg?raw=true "Menu")
+![Alt text](https://github.com/olgush/Library/blob/master/Library/Assets/screenshot6.JPG "Menu")
+
+
 
 # Implementation
 
-## SubProject ClassLibarary
+## SubProject ClassLibrary
 Classes Book and Journal are inherrited from AbstractItem class. In future other items can be easy added to the library, for example Audio.
 
 IManageLibrary interface to manage library. Class ItemCollection is implementing all methods from IManageLibrary interface.
@@ -56,9 +56,9 @@ The same logic for users. User is the abstract class for all users. In future ot
 IManageUsers interface to manage users. Class UserCollection is implementing all methods from IManageUsers interface.
 Class UserManager has data about all current users. Also UserManager inherits UserCollection with all methods.
 
-![Alt text](relative/path/to/img.jpg?raw=true "ClassLibarary")
+![Alt text](https://github.com/olgush/Library/blob/master/Library/Assets/screenshot7.JPG "ClassLibarary")
 
-## SubProject Libarary
+## SubProject Library
 
 Created to manage UI for main and user's pages and handle all related events.
 
