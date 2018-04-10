@@ -15,7 +15,7 @@ namespace Library
     public sealed partial class UserPage1 : Page
     {
         private List<AbstractItem> _searchResultList = new List<AbstractItem>();
-        private DateTimeOffset defaultDate = DateTimeOffset.Parse("01/01/1917");
+        private DateTimeOffset defaultDate = DateTimeOffset.Parse("01/01/2018");
 
         public UserPage1()
         {
@@ -86,9 +86,11 @@ namespace Library
                 {
                     _categorySearchResultList =
                         //new List<AbstractItem>(libraryManager.SearchItemByCategory(GenreComboBox.SelectedItem.ToString(), CategoryComboBox.SelectedItem.ToString()));
-                        libraryManager.SearchItemByCategory(GenreComboBox.SelectedItem.ToString(), CategoryComboBox.SelectedItem.ToString());
-
-                    if (SearchByNameBox.Text != "" && SearchByDateBox.Date.Date != defaultDate.Date &&
+                        libraryManager.SearchItemByCategory(GenreComboBox.SelectedItem.ToString(),
+                            CategoryComboBox.SelectedItem.ToString());
+                }
+            }
+            if (SearchByNameBox.Text != "" && SearchByDateBox.Date.Date != defaultDate.Date &&
                         CategoryComboBox.SelectedItem != null)
                         caseSwitch = "NameDateCategory";
                     else if (SearchByNameBox.Text != "" && SearchByDateBox.Date.Date != defaultDate.Date)
@@ -103,8 +105,7 @@ namespace Library
                         caseSwitch = "DateOnly";
                     else if (CategoryComboBox.SelectedItem != null)
                         caseSwitch = "CategoryOnly";
-                }
-            }
+              
 
             switch (caseSwitch)
             {
