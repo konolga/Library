@@ -1,5 +1,5 @@
 # Library
-C# and xaml application for Windows 8
+C# and WPF (Windows 8, xaml) application 
 
 In Library there are 2 categories: books and journals. Each category has 3 defferent genres. User can take item from library and return it. 
 
